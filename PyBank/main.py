@@ -57,7 +57,7 @@ with open(budget_csv_path,newline="") as csvfile:
         total=total+int(profit_Loss)
              
     # After all the rows are average change is captures 
-    # sverage change= sum of(all the changes)  devided by (tatal number of changes ie. count of tatal rows-1)
+    # average change= sum of(all the changes)  devided by (tatal number of changes ie. count of tatal rows-1)
     avg_change=round(Decimal(avg_change_total/cnt),2)
 
 #prints to output folder in results.txt file
